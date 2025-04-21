@@ -11,6 +11,9 @@ on:
   # 수동 실행 옵션
   workflow_dispatch:
 
+env:
+  TZ: 'Asia/Seoul' 
+
 jobs:
   check-mirrors:
     runs-on: ubuntu-latest
