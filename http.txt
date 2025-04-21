@@ -1,0 +1,8 @@
+mirror.amuksa.com
+mirror2.amuksa.com
+mirror.krfoss.org
+mirror.zzunipark.com
+mirror.techlabs.co.kr
+mirror.keiminem.com
+mirror.funami.tech
+mirror.eliv.kr
