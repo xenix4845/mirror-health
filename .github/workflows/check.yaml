@@ -2,8 +2,12 @@ name: Mirror Status Check
 
 on:
   schedule:
-    # 5분마다 실행
+    # 30분마다 실행
     - cron: '*/30 * * * *'
+  # 저장소에 변경 사항이 푸시될 때 실행
+  push:
+    branches:
+      - main
   # 수동 실행 옵션
   workflow_dispatch:
 
