@@ -3,7 +3,7 @@ name: Mirror Status Check
 on:
   schedule:
     # 5분마다 실행
-    - cron: '*/5 * * * *'
+    - cron: '*/30 * * * *'
   # 수동 실행 옵션
   workflow_dispatch:
 
@@ -17,7 +17,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v4
         with:
-          go-version: '1.24'  # 1.24는 아직 정식 릴리스되지 않았습니다
+          go-version: '1.24'
       
       - name: Run mirror check
         run: ./rokfoss-checker
